@@ -38,3 +38,6 @@
 
 - The above stated sample will send a message like below
     ![Sample Notification](https://github.com/thechetantalwar/teams-notify/blob/master/sample.png?raw=true)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+

@@ -1,4 +1,8 @@
 name: 'Notify Teams'
+branding :
+    icon : 'send'
+    color : 'gray-dark'
+author: 'Chetan Talwar'
 description: 'Sending a notification to Microsoft Teams Channel'
 inputs:
     teams_webhook_url:

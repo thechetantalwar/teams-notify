@@ -1,4 +1,3 @@
-
 #!/bin/bash
 text='{"text":"'${2}'"}'
 echo $text > test.txt

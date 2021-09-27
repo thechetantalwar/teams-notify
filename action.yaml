@@ -1,0 +1,15 @@
+name: 'Notify Teams'
+description: 'Sending a notification to Microsoft Teams Channel'
+inputs:
+    teams_webhook_url:
+        description: WebHook URL of your MS Teams Channel
+        required: true
+    message:
+        description: Message to be sent
+        required: true
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
+    args:
+        - ${{ inputs.teams_webhook_url }}
+        - '${{ inputs.message }}'

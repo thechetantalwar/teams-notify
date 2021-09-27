@@ -1,6 +1,4 @@
 ## Microsoft Teams Notify - Github Actions
----
-
 - A Github Action to send Job Status to Microsoft Teams Channel
 
 ## Usage
